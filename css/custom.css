@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #DEF2F1;
+  color: #17252A !important;
+
+}
+
+.jumbotron {
+  background-color: transparent;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 100px;
+}
