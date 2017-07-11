@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #DEF2F1;
@@ -44,3 +45,52 @@ a {
     margin-bottom: 5px;
   }
 }
+/*
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #DEF2F1;
+  color: #17252A !important;
+  font-size: 16px;
+}
+
+.jumbotron {
+  background-color: transparent;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h1 {
+  font-size: 125px !important;
+}
+
+.jumbotron p {
+  font-size: 32px;
+  background: #DEF2F1;
+}
+
+.row h3 {
+  font-weight: bolder;
+  font-size: 26px;
+}
+
+.row h4 {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+a {
+  color: #2B7A78;
+  text-decoration: none !important;
+}
+
+@media screen and (min-width: 768px){
+  h1 {
+    font-size: 150px !important;
+  }
+  h4 {
+    margin-bottom: 5px;
+  }
+}
+*/
