@@ -8,7 +8,8 @@ body {
 
 .jumbotron {
   background-color: transparent;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -23,74 +24,47 @@ h1 {
 }
 
 .row h3 {
-  font-weight: bolder;
+  font-weight: 500;
   font-size: 26px;
 }
 
 .row h4 {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 19px;
 }
 
 a {
-  color: #2B7A78;
+  color: #17252A;
   text-decoration: none !important;
 }
 
+a:hover{
+  color: #FEFFFF;
+}
+
+p {
+  font-weight: 300;
+}
+img {
+    float:left;
+}
+img:hover {
+  color: red;
+}
 @media screen and (min-width: 768px){
+  .jumbotron{
+    margin-top: 75px !important;
+  }
   h1 {
-    font-size: 150px !important;
+    font-size: 125px !important;
   }
   h4 {
     margin-bottom: 5px;
   }
-}
-/*
-
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #DEF2F1;
-  color: #17252A !important;
-  font-size: 16px;
-}
-
-.jumbotron {
-  background-color: transparent;
-  font-family: 'Dosis', sans-serif;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-h1 {
-  font-size: 125px !important;
-}
-
-.jumbotron p {
-  font-size: 32px;
-  background: #DEF2F1;
-}
-
-.row h3 {
-  font-weight: bolder;
-  font-size: 26px;
-}
-
-.row h4 {
-  font-weight: bold;
-  font-size: 19px;
-}
-
-a {
-  color: #2B7A78;
-  text-decoration: none !important;
-}
-
-@media screen and (min-width: 768px){
-  h1 {
-    font-size: 150px !important;
+  .container {
+    margin-left: 100px;
   }
-  h4 {
-    margin-bottom: 5px;
+  #work {
+    padding-left: 80px;
   }
 }
-*/
