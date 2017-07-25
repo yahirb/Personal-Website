@@ -39,7 +39,7 @@ a {
 }
 
 a:hover{
-  color: #FEFFFF;
+  color: #2B7A78;
 }
 
 p {
@@ -67,4 +67,9 @@ img:hover {
   #work {
     padding-left: 80px;
   }
+}
+
+/* space between project icon and title */
+.icon {
+  margin-right: 7px;
 }
